@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+        <title>RGB Control</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/classic.min.css"/>
+        <style>
+                .ui{
+                    font-size: x-large;
+                }
+        </style>
+    </head>
+    <body>
+        <div class="ui">
+        <h1>Control RGB</h1>
+            <div class="color-picker"></div>
+            <script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
+           
+
+
+        <br>Set intensity level<br>
+        <input type="range" min="1" max="100" value="50" class="slider" id="LED_INTENSITY">
+        Value: <span id="LED_VALUE">-</span><br>
+        </div>
+    </body>
+<script src="fade/script_fade.js"></script>
+
+</html>

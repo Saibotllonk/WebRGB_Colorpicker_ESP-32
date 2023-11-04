@@ -10,7 +10,7 @@
 #define LED_B 4
 
 #define WIFI_SSID "WIFI_SSID..."
-#define WIFI_PASS "WIFI_PASSWORD..."
+#define WIFI_PASS "WIFI_PASS..."
 
 void webSocketEvent(byte num, WStype_t type, uint8_t *payload, size_t length);
 void send_update(String type, int value);
